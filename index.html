@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="assets/imgs/icono.png" />
+    <title>Restaurante</title>
+    <style>
+      body {
+        font-family: "Lucida Console", "Courier New", monospace;
+        background: linear-gradient(
+          to right,
+          rgb(209, 143, 104),
+          rgb(209, 143, 104)
+        );
+        padding: 0;
+        margin: 0;
+      }
+
+      header {
+        text-align: center;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover:not(.active) {
+        background-color: #111;
+      }
+
+      .active {
+        background-color: #5c1c0c;
+      }
+
+      h1 {
+        background-color: black;
+        padding: 10px;
+        margin: 0;
+        color: #cacfe7;
+      }
+
+      h2 {
+        font-size: 24px;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+
+      .image {
+        float: right;
+        margin: 0 0 20px 20px;
+        max-width: 25%;
+        height: auto;
+      }
+
+      .image2 {
+        float: left;
+        margin: 0 20px 20px 0;
+        max-width: 25%;
+        height: auto;
+      }
+      .article {
+        float: left;
+        width: 70%;
+        background-color: #fff;
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid #ccc;
+      }
+
+      .footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        clear: both;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Quienes somos</h1>
+
+      <nav>
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="preferencias.html">Preferencias</a></li>
+          <li><a href="audiovisuales.html">Audiovisuales</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <br />
+    <h2 style="margin: 15px">Todo sobre nosotros</h2>
+    <hr />
+    <article class="container">
+      <h3>Breve reseña de nuesta historia</h3>
+
+      <p>
+        <b>"El Sabor de la Familia"</b> es un restaurante que nace de la pasión
+        y amor por la cocina española, fundado en el corazón de la ciudad<br />por
+        la familia <i>Benavides</i> . Con una historia que se remonta a varias
+        generaciones,<br />
+        este establecimiento ha cultivado un legado de tradición culinaria y
+        hospitalidad que ha dejado una marca perdurable en la comunidad.<br />
+        La historia comenzó en <i>1940</i> cuando <b>Antonio Benavides</b>, un
+        inmigrante español con una profunda conexión con la gastronomía de su
+        tierra natal,<br />
+      </p>
+      <img class="image" src="/assets/imgs/desde1940.jpg" alt="esquina" />
+
+      <p>
+        decidió abrir un pequeño restaurante en la ciudad. Inspirado por las
+        recetas transmitidas de generación en generación en su familia.<br />
+        Antonio quería compartir los auténticos sabores de <i>España</i> con la
+        gente de su nueva comunidad.
+      </p>
+      <img class="image2" src="/assets/imgs/salons.jpg" alt="salons" />
+
+      <p>
+        El restaurante, originalmente llamado <b>"La Casa Española"</b>,
+        rápidamente se ganó la reputación de servir platos exquisitos
+        elaborados<br />
+        con ingredientes frescos y auténticos.
+        <i>La paella, la tortilla española, el gazpacho</i> y otras delicias
+        culinarias se convirtieron en los platos<br />
+        estrella que atrajeron a comensales locales y visitantes por igual. Con
+        el tiempo, la familia <i>Benavides</i> se dedicó a perfeccionar su arte
+        culinario,<br />
+      </p>
+      <img class="image" src="/assets/imgs/casuela.jpg" alt="casuela" />
+
+      <p>
+        manteniendo la calidad y autenticidad en cada platillo. La segunda
+        generación, encabezada por <b>Marta Benavides</b>, trajo consigo nuevas
+        ideas y técnicas modernas,<br />
+        pero siempre respetando las raíces y las recetas tradicionales. La
+        atención al cliente se convirtió en una piedra angular del
+        restaurante.<br />
+        El personal, considerado como una extensión de la familia, se esfuerza
+        por brindar un servicio cálido y amable,<br />
+        creando un ambiente acogedor que hace que los clientes se sientan como
+        en casa.
+      </p>
+      <img class="image2" src="/assets/imgs/tortilla.jpg" alt="tortilla" />
+
+      <p>
+        A lo largo de los años, <b>"La Casa Española"</b> evolucionó y creció,
+        mudándose a un espacio más grande y cambiando su nombre a:<br />
+        <b>"El Sabor de la Familia"</b> para reflejar la conexión emocional y el
+        compromiso con las tradiciones familiares. El menú se expandió para
+        incluir una variedad de opciones,<br />
+        desde tapas hasta <i>postres deliciosos</i>. Los precios asequibles han
+        sido una prioridad para la familia <i>Benavides</i>,<br />
+        ya que siempre han creído en hacer que la auténtica cocina española sea
+        accesible para todos. Este enfoque ha contribuido a la lealtad de la
+        clientela a lo largo de los años,<br />
+      </p>
+
+      <img class="image" src="/assets/imgs/paella.jpg" alt="paella" />
+
+      <p>
+        convirtiendo a <b>"El Sabor de la Familia"</b> en un lugar de reunión
+        querido por la comunidad. Hoy en día, el restaurante sigue siendo
+        gestionado por la familia <i>Benavides</i>,<br />
+        ahora con la tercera generación asumiendo roles clave. Con el compromiso
+        continuo de ofrecer excelente comida, atención personalizada y precios
+        justos,<br />
+        <b>"El Sabor de la Familia"</b> continúa siendo un pilar en la escena
+        gastronómica local, manteniendo viva la rica tradición culinaria
+        española.
+      </p>
+
+      <img class="salon" src="/assets/imgs/salon.jpg" alt="salon" />
+    </article>
+
+    <footer class="footer">Derechos reservados &copy; 2024</footer>
+  </body>
+</html>

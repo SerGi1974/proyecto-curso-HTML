@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="assets/imgs/icono.png" />
+    <title>Restaurante</title>
+    <style>
+      body {
+        font-family: "Lucida Console", "Courier New", monospace;
+        background: linear-gradient(
+          to right,
+          rgb(209, 143, 104),
+          rgb(209, 143, 104)
+        );
+        padding: 0;
+        margin: 0;
+      }
+
+      header {
+        text-align: center;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover:not(.active) {
+        background-color: #111;
+      }
+
+      .active {
+        background-color: #5c1c0c;
+      }
+
+      h1 {
+        background-color: black;
+        padding: 10px;
+        margin: 0;
+        color: #92a4ff;
+      }
+
+      div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 33vw;
+      }
+
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+
+      .centrado {
+        display: flex;
+        justify-content: center;
+      }
+      .footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Nuestras Delicias</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="preferencias.html">Preferencias</a></li>
+          <li><a class="active" href="audiovisuales.html">Audiovisuales</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h2 style="margin: 15px">Todo entra por los ojos</h2>
+    <br />
+
+    <video
+      src="/assets/videos/cocina.mp4"
+      muted
+      controls
+      autoplay
+      width="1900"
+      height="700"
+    ></video>
+    <br />
+    <br />
+
+    <section class="centrado">
+      <div class="gallery">
+        <a href="/assets/imgs/Gambas.jpg" target="_blank"
+          ><img src="/assets/imgs/Gambas.jpg" width="200" alt="Gambas"</a
+        >
+      </div>
+      <div class="gallery">
+        <a href="/assets/imgs/fabada-asturiana.jpg" target="_blank"
+          ><img src="/assets/imgs/fabada-asturiana.jpg" width="300"
+          alt="fabada-asturiana"</a
+        >
+      </div>
+      <div class="gallery">
+        <a href="/assets/imgs/Jamón-serrano.jpg" target="_blank"
+          ><img src="/assets/imgs/Jamón-serrano.jpg" width="520" alt=""</a
+        >
+      </div>
+    </section>
+
+    <footer class="footer">Derechos reservados &copy; 2024</footer>
+  </body>
+</html>
